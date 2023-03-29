@@ -4,11 +4,11 @@ import { Dashboard, Login, Register } from "./pages";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-   <Route path="/" element={<Header />}>
+  <Route path="/" element={<Header />}>
     <Route index element={<Dashboard />}/>
     <Route path="login" element={<Login />}/>
     <Route path="register" element={<Register />}/>
-   </Route>
+  </Route>
   )
 )
 

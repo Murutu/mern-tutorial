@@ -11,16 +11,13 @@ const Header = () => {
             <NavLink to="/">GoalSetter</NavLink>
         </div>
         <ul>
-            <li>
                 <NavLink to="login">
                     <FaSignInAlt /> Login
                 </NavLink>
-            </li>
-            <li>
+                
                 <NavLink to="register">
                     <FaSignOutAlt /> Register
                 </NavLink>
-            </li>
         </ul>
     </header>
 
